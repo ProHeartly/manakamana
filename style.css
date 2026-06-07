@@ -570,7 +570,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 #plate20 {
-    transform: scale(0.801);
+    transform: scale(1.1) translateX(5px);
 }
 
 #ch {
@@ -586,7 +586,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 #pala3 {
-    transform: translateX(-25px) translateY(-7px) scale(0.9);
+    transform:scale(1.2);
 }
 
 #pala2 {
