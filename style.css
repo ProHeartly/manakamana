@@ -506,60 +506,6 @@ a { text-decoration: none; color: inherit; }
 .story-badge h4 { font-size: 0.9rem; color: var(--forest); margin-bottom: 0.15rem; }
 .story-badge p { font-size: 0.8rem; color: var(--muted); }
 
-/* ── WHAT IS TAPARI ────────────────────────────────────── */
-/* .what-section { padding: 8rem 6%; background: var(--cream); }
-.what-grid {
-    display: grid; grid-template-columns: repeat(3,1fr);
-    gap: 1.5rem;
-    max-width: 1200px; margin: 0 auto;
-}
-.what-card {
-    padding: 2.5rem 2rem;
-    border-radius: var(--r);
-    border: 1px solid var(--border);
-    background: var(--cream);
-    position: relative; overflow: hidden;
-    transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
-}
-.what-card::before {
-    content: '';
-    position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
-    background: var(--terra);
-    transform: scaleX(0); transform-origin: left;
-    transition: transform 0.4s var(--ease);
-}
-.what-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
-.what-card:hover::before { transform: scaleX(1); }
-.what-card.featured {
-    background: var(--forest);
-    border-color: var(--forest);
-}
-.what-card.featured .what-num { color: rgba(255,255,255,0.15); }
-.what-card.featured h3 { color: #fff; }
-.what-card.featured p { color: rgba(255,255,255,0.7); }
-.what-card.featured .what-icon-wrap { background: rgba(255,255,255,0.1); color: var(--green-soft); }
-.what-card.featured::before { background: var(--green-soft); }
-.what-num {
-    font-family: var(--font-serif);
-    font-size: 3.5rem; font-weight: 700;
-    color: rgba(27,61,47,0.06);
-    line-height: 1;
-    margin-bottom: 1rem;
-    transition: color 0.3s;
-}
-.what-card:hover .what-num { color: rgba(27,61,47,0.1); }
-.what-icon-wrap {
-    width: 52px; height: 52px;
-    border-radius: 12px;
-    background: var(--warm-mid);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 1.5rem; color: var(--terra);
-    margin-bottom: 1.25rem;
-    transition: background 0.25s, transform 0.3s var(--ease);
-}
-.what-card:hover .what-icon-wrap { transform: scale(1.1) rotate(-5deg); }
-.what-card h3 { font-family: var(--font-serif); font-size: 1.35rem; color: var(--forest); margin-bottom: 0.6rem; }
-.what-card p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; } */
 
 /* ── PRODUCTS ──────────────────────────────────────────── */
 .products-section { padding: 8rem 6%; background: var(--cream); }
@@ -605,17 +551,56 @@ a { text-decoration: none; color: inherit; }
 
 /* Image area */
 .pcard-img {
-    aspect-ratio: 1/1.2;
+    aspect-ratio: 1/1;
     overflow: hidden;
-    background: var(--warm-mid);
+    background: #111113;
     position: relative;
 }
 .pcard-img img {
     width: 100%; height: 100%;
     object-fit: cover;
-    transition: transform 0.5s var(--ease);
 }
-.pcard:hover .pcard-img img { transform: scale(1.05); }
+
+#tapari1 {
+    transform: scale(1);
+}
+
+#jumbo {
+    transform: scale(1.03);
+}
+
+#plate20 {
+    transform: scale(0.801);
+}
+
+#ch {
+    transform: scale(0.8);
+}
+
+#duna2 {
+    transform: translateY(-5px);
+}
+
+#duna1 {
+    transform: scale(0.87) translateX(-7px);
+}
+
+#pala3 {
+    transform: translateX(-25px) translateY(-7px) scale(0.9);
+}
+
+#pala2 {
+    transform: scale(1.05);
+}
+
+#pala1 {
+    transform: scale(1.05) translateX(4px);
+}
+
+#pala0 {
+    transform: scale(0.7) translatex(-22px);
+}
+
 .pcard-img-placeholder {
     width: 100%; height: 100%;
     display: flex;
